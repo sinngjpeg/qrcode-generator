@@ -1,0 +1,26 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "A simple QR code generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinngjpeg/qrcode-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinngjpeg/qrcode-generator/issues"
+  },
+  "homepage": "https://github.com/sinngjpeg/qrcode-generator#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
